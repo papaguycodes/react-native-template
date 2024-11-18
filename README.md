@@ -83,3 +83,24 @@ yarn start
 
 
 ---
+
+
+## Install Navigation and Context API Dependencies
+
+1. React Navigation setup:
+```bash
+npm install @react-navigation/native @react-navigation/stack react-native-screens react-native-safe-area-context
+```
+
+2. Install State Management Context API:
+
+Context API is built-in with React, so no additional package is needed.
+
+
+
+3. Install Axios (for API requests):
+```bash
+npm install axios
+```
+
+---
