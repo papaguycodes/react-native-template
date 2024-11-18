@@ -51,113 +51,39 @@ Android Studio or Xcode set up for Android and iOS development respectively.
 Installation
 
 1. Clone the Repository
-
+```bash
 git clone https://github.com/PaPaGuyCodes/react-native-template.git
 cd react-native-template
-
+```
 
 2. Install Dependencies
-
+```bash
 npm install
-
+```
+```bash
 or using Yarn:
-
+```
+```bash
 yarn install
-
+```
 
 3. Set Up iOS (Mac Only) Navigate to the ios directory and install pods:
-
+```bash
 cd ios
 pod install
 cd ..
-
+```
 
 4. Start the Metro Bundler
-
+```bash
 npm start
-
+```
+```bash
 or using Yarn:
-
+```
+```bash
 yarn start
-
-
-
-
----
-
-Project Structure
-
-react-native-template/
-├── android/                   # Android-specific files
-├── ios/                       # iOS-specific files
-├── src/
-│   ├── components/            # Reusable React components
-│   │   ├── Button.js          # Custom button component
-│   │   └── Header.js          # Header component
-│   ├── context/               # Context for global state management
-│   │   └── AppContext.js      # App-wide state management
-│   ├── navigation/            # Navigation setup
-│   │   └── AppNavigator.js    # Main navigation file
-│   ├── screens/               # Application screens
-│   │   ├── HomeScreen.js      # Home screen component
-│   │   └── DetailsScreen.js   # Details screen component
-│   ├── utils/                 # Utility functions
-│   │   └── api.js             # API request handler
-│   └── App.js                 # Main application file
-├── .gitignore                 # Git ignore file
-├── package.json               # Project configuration
-├── README.md                  # Project documentation
-└── LICENSE                    # License information
-
-
----
-
-Available Scripts
-
-In the project directory, you can run:
-
-npm start or yarn start: Starts the Metro Bundler.
-
-npm run android or yarn android: Builds and launches the app on an Android device or emulator.
-
-npm run ios or yarn ios: Builds and launches the app on an iOS simulator or device.
-
-npm run lint or yarn lint: Runs ESLint to check for code quality issues.
-
-npm run test or yarn test: Runs the test suite.
-
-
-
----
-
-Usage
-
-Navigation
-
-This template uses React Navigation for handling screen transitions.
-
-Home Screen: Displays a welcome message and fetches user data from an API.
-
-Details Screen: Provides additional information.
-
-
-State Management
-
-Global state is managed using React's Context API.
-
-AppContext: Provides user data across the application.
-
-
-API Integration
-
-Utility functions are set up to handle API requests using Axios.
-
-fetchData: Fetches data from the specified API endpoint.
-
-
-Reusable Components
-
-Button: A customizable button component that can be reused across different screens.
+```
 
 
 
