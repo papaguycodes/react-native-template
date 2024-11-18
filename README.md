@@ -52,7 +52,7 @@ Installation
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/PaPaGuyCodes/react-native-template.git
+git clone https://github.com/papaguycodes/react-native-template.git
 cd react-native-template
 ```
 
