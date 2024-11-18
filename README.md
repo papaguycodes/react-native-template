@@ -12,12 +12,6 @@ A minimal and customizable React Native template for building mobile application
 1. [Features](#features)
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
-4. [Project Structure](#project-structure)
-5. [Available Scripts](#available-scripts)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
 
 ---
 
@@ -48,7 +42,7 @@ Android Studio or Xcode set up for Android and iOS development respectively.
 
 ---
 
-Installation
+# Installation
 
 1. Clone the Repository
 ```bash
@@ -74,7 +68,8 @@ pod install
 cd ..
 ```
 
-4. Start the Metro Bundler
+
+4. Start the Metro Bundler 
 ```bash
 npm start
 ```
